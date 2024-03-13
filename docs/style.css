@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    background-color: #55B4F2;
+}
+
+h1 {
+    text-align: center;
+    color: #ffff;
+    font-size: 50px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid #cfd0d4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 70%;
+    font-size: 25px;
+    background-color: #ffff;
+    border-collapse: collapse;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+th {
+    align-items: center;
+}
+
+td {
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+}
+#clasificado {
+    background-color: #1FE607;
+}
+.equipos{
+    width: 30%;
+}
+.equipo {
+        text-align: left;
+    }
+.posiciones,.pj, .gol, .diferencia, .puntos, .g, .e, .p{
+    width: 80px;
+}
+.ultimos{
+    width: 23%;
+}
+.ganada{
+    background-color: #1FE607;
+}
+.empate{
+    background-color: orange;
+}
+.perdida{
+    background-color: red;
+}
+.betplay img{
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    margin-top: 20%;
+    left: 15px;
+}
+
+.campeon img{
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    margin-top: 20%;
+    right: 15px;
+}
+.campeon label{
+    color: #ffff;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 18%;
+    right: 60px;
+}
